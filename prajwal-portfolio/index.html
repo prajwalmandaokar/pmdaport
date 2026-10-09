@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Prajwal Mandaokar, Data Analyst skilled in Python, SQL, Power BI and Excel." />
+  <title>Prajwal Mandaokar | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">PM<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Prajwal <span class="neon-text">Mandaokar</span></h1>
+        <p class="role">
+          <span id="typed"></span><span class="caret">|</span>
+        </p>
+        <p class="hero-text">
+          Entry-level Data Analyst turning raw data into clear business insights through
+          cleaning, SQL reporting, dashboards and predictive modeling.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-neon">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About <span>Me</span></h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a Computer Science engineer (B.E., 2026) based in Pune, Maharashtra. I work with
+              data end to end: cleaning messy datasets, exploring patterns, building SQL reports and
+              presenting findings in Power BI and Streamlit dashboards.
+            </p>
+            <p>
+              Currently a Data Science intern at NMD Infotech, I apply statistics and machine learning
+              to real business problems, with a focus on fraud risk, customer behavior and retention.
+            </p>
+          </div>
+          <div class="stats">
+            <div class="stat reveal"><span class="stat-num" data-count="4">0</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat reveal"><span class="stat-num" data-count="100">0</span><span class="stat-label">K+ Transactions Analyzed</span></div>
+            <div class="stat reveal"><span class="stat-num" data-count="6">0</span><span class="stat-label">Core Tool Families</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Technical <span>Skills</span></h2>
+        <div class="filter-bar reveal">
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="lang">Languages</button>
+          <button class="chip" data-filter="analysis">Analysis</button>
+          <button class="chip" data-filter="bi">Visualization</button>
+          <button class="chip" data-filter="ml">Machine Learning</button>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal" data-cat="lang"><h3>Programming</h3><p>Python, SQL, R</p></div>
+          <div class="skill-card reveal" data-cat="analysis"><h3>Data Analysis</h3><p>Pandas, NumPy, Data Cleaning, EDA, KPI Reporting, Cohort Analysis, RFM Segmentation</p></div>
+          <div class="skill-card reveal" data-cat="bi"><h3>Visualization & BI</h3><p>Power BI (DAX), Tableau, Excel, Matplotlib, Seaborn, Streamlit</p></div>
+          <div class="skill-card reveal" data-cat="analysis"><h3>Databases</h3><p>MySQL, PostgreSQL, MongoDB, Joins, Aggregations, Subqueries</p></div>
+          <div class="skill-card reveal" data-cat="ml"><h3>Machine Learning</h3><p>scikit-learn, Logistic & Linear Regression, Random Forest, Gradient Boosting, K-Means, PCA</p></div>
+          <div class="skill-card reveal" data-cat="lang"><h3>Tools</h3><p>Jupyter, Git, GitHub, VS Code</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal"><span>Experience</span></h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="dot"></span>
+            <div class="timeline-card">
+              <p class="meta">2026 – Ongoing</p>
+              <h3>Data Science Intern</h3>
+              <p class="org">NMD Infotech, Pune</p>
+              <ul>
+                <li>Clean, analyze and visualize datasets using Python, SQL, Excel and Power BI to deliver business insights and reports.</li>
+                <li>Apply statistical analysis, dashboard development and machine learning fundamentals to real-world business problems.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+        <div class="projects-grid">
+
+          <article class="project-card reveal" data-tags="sql python bi">
+            <div class="project-top"><span class="project-year">2026</span></div>
+            <h3>Digital Payment Fraud & Risk Intelligence</h3>
+            <p>Analyzed 100,000 synthetic digital-payment transactions to study fraud risk, behavior and geographic trends using rule-based risk and anomaly flags.</p>
+            <ul class="tags"><li>MySQL</li><li>Pandas</li><li>Power BI</li><li>DAX</li></ul>
+            <a href="https://github.com/prajwalmandaokar/Digital-Payment-Fraud-Risk-Intelligence-2026" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="python ml">
+            <div class="project-top"><span class="project-year">2026</span></div>
+            <h3>Customer Churn Prediction</h3>
+            <p>End-to-end churn pipeline on a 5,000-record telecom dataset. Compared 3 models and selected Logistic Regression (ROC-AUC 0.82, 73% recall) with class balancing.</p>
+            <ul class="tags"><li>scikit-learn</li><li>SQL</li><li>Streamlit</li></ul>
+            <a href="https://github.com/prajwalmandaokar/customer-churn-prediction" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="python ml sql">
+            <div class="project-top"><span class="project-year">2026</span></div>
+            <h3>Customer Analysis & Segmentation</h3>
+            <p>Analyzed 14,000+ e-commerce transactions with RFM segmentation and K-Means clustering, cohort retention analysis, a 90-day CLV model and a 6-tab dashboard.</p>
+            <ul class="tags"><li>RFM</li><li>K-Means</li><li>Cohort Analysis</li><li>Streamlit</li></ul>
+            <a href="https://github.com/prajwalmandaokar/customer-analysis-project" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+          </article>
+
+          <article class="project-card reveal" data-tags="bi python sql">
+            <div class="project-top"><span class="project-year">2026</span></div>
+            <h3>Movie Ratings Dashboard</h3>
+            <p>Analyzed ratings across 500 movies, 10 genres and 12 directors, then built a dark-theme Power BI dashboard with 7 interactive visuals.</p>
+            <ul class="tags"><li>Power BI</li><li>Python</li><li>SQL</li></ul>
+            <a href="#contact" class="project-link">Ask for details →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION & CERTS -->
+    <section class="section" id="education">
+      <div class="container two-col">
+        <div class="reveal">
+          <h2 class="section-title"><span>Education</span></h2>
+          <div class="edu-item">
+            <p class="meta">2022 – 2026</p>
+            <h3>B.E. in Computer Science</h3>
+            <p class="org">Sipna College of Engineering and Technology, Amravati · CGPA 7.09</p>
+          </div>
+          <div class="edu-item">
+            <p class="meta">2021 – 2022</p>
+            <h3>Higher Secondary Certificate</h3>
+            <p class="org">Matoshri Vidyalay, Tukum · 82.50%</p>
+          </div>
+          <div class="edu-item">
+            <p class="meta">2019 – 2020</p>
+            <h3>Secondary School Certificate</h3>
+            <p class="org">Matoshri Vidyalay, Tukum · 86.80%</p>
+          </div>
+        </div>
+        <div class="reveal">
+          <h2 class="section-title">Certi<span>fications</span></h2>
+          <ul class="cert-list">
+            <li><span>Python for Data Science</span><small>CognitiveClass.ai · 2026</small></li>
+            <li><span>SQL and Relational Databases</span><small>CognitiveClass.ai · 2026</small></li>
+            <li><span>Data Analytics Job Simulation</span><small>Deloitte · 2026</small></li>
+            <li><span>Introduction to Generative AI</span><small>Simplilearn Skillup · 2026</small></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section alt" id="contact">
+      <div class="container contact-wrap reveal">
+        <h2 class="section-title">Let's <span>Connect</span></h2>
+        <p class="contact-text">Open to Data Analyst roles. If you have a question or an opportunity, let's talk.</p>
+        <a href="mailto:prajwalmandaokar22@gmail.com" class="btn btn-neon big">prajwalmandaokar22@gmail.com</a>
+        <div class="socials">
+          <a href="https://linkedin.com/in/prajwal-mandaokar-084259259" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/prajwalmandaokar" target="_blank" rel="noopener">GitHub</a>
+          <a href="tel:+917558592040">+91 7558592040</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Prajwal Mandaokar. Built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
